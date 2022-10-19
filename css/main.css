@@ -72,3 +72,24 @@ select {
     scroll-behavior: auto !important;
   }
 }
+/* Global styles */
+
+/* end goba styes */
+
+/* header styles */
+header, nav ul {
+  display: flex;
+}
+header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+header li {
+  list-style: none;
+  margin-right: 1em;
+}
+header a {
+  text-decoration: none;
+}
+/* end header styles */
