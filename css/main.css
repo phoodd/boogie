@@ -73,7 +73,24 @@ select {
   }
 }
 /* Global styles */
-
+.pink {
+background-color: #e8d5e2;
+}
+.red {
+  background-color: #db6f62;
+}
+.btn {
+  padding: 8px 16px;
+  color: white;
+  text-decoration: none;
+  max-width: 100px
+}
+.btn-pink {
+  background-color: pink;
+}
+.btn-green {
+  background-color: green
+}
 /* end goba styes */
 
 /* header styles */
@@ -107,6 +124,34 @@ grid-row-gap: 0px;
   height: 400px;
 }
 .half2 {
-background-color: purple;
 width: auto;
+display: grid;
+grid-template-columns: repeat(2, 3fr) 1fr;
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+.half2 div {
+}
+.box {
+  padding: 4em;
+  display: flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.box3 {
+}
+
+.box3box {
+  display: flex;
+  padding: 5px 16px;
+  justify-content: center;
+  border-bottom: solid gray 1px;
+}
+.box5 {
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
 }
